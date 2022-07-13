@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Firasans-Bold;
+    src: url(../assets/fonts/Fira_Sans/FiraSans-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Firasans-Regular;
+    src: url(../assets/fonts/Fira_Sans/FiraSans-Regular.ttf);
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  header,
+  .first-content,
+  .box-formation {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: Firasans-Regular;
+    min-width: 360px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (max-width:1024px) {
+  header,
+  .first-content,
+  .box-formation {
+    padding: 0 4%;
+  }
+  }

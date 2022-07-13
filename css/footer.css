@@ -1,0 +1,56 @@
+footer {
+    background-color: #000;
+    color: rgba(204, 204, 204, 1);
+    height: 32rem;
+  }
+  
+  footer article {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 90px 0px 60px 0px;
+    font-size: 1.125rem;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 429px;
+    align-self: center;
+  }
+  
+  .contact {
+    display: grid;
+    font-family: Firasans-Bold;
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  footer h4 {
+    align-self: flex-end;
+    font-weight: 400;
+  }
+  @media (max-width:1000px) {
+    footer article {
+      padding: 30px;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    footer article {
+      grid-template-columns:1fr;
+    }
+    
+    .footer-text {
+      max-width: 100%;
+      font-size: 1.3rem;
+    }
+
+
+
+  }
