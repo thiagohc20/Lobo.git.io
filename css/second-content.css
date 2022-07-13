@@ -86,7 +86,7 @@
   }
   
   .curse-article h2::before 
-  .languages h2::before,{
+  .languages h2::before {
     content: "";
     display: block;
     right: 40px;
@@ -163,7 +163,7 @@
 
 @media (max-width: 800px) {
   .formation-title {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
   
   .formation-text {
